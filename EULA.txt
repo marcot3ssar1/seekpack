@@ -12,6 +12,10 @@ SEEKPACK END USER LICENSE AGREEMENT (EULA) — v0.2.1
    (c) PRO (€39 one-time, updates 1 year): removes all creation limits and
        unlocks Pro modules (multithreaded coding, parity records,
        encryption, scheduler) as they ship. One license per machine.
+   (d) BETA TESTER: the first 10 testers who complete the beta report
+       (hardware, archive shape, before/after times, issues found) receive
+       a PRO license free of charge, valid lifetime, same terms as (c).
+       Granted once the license-key system ships; archives need nothing.
 3. RESTRICTIONS. You may not reverse engineer, decompile or disassemble
    the Software, except where such restriction is prohibited by applicable
    law. You may not remove copyright notices, resell, rent or sublicense
