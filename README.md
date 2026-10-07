@@ -17,6 +17,9 @@ seekpack recupera dal footer ([video](https://youtu.be/_COR5A38Ja0)).
 * Verifica forte per chunk (xxh3-64 + blake3): un bit flippato nomina il
   chunk colpevole invece di avvelenare l'output.
 * Lossless 100%, output deterministico byte-identico.
+* Parla anche i formati altrui: apre `.zip` (nativo), `.tar.gz`/`.tar`
+  (streaming) e `.rar` (via 7z o unrar installati) — e li converte in `.skp`
+  con un comando, per avere seek, dedup e verifica anche sullo storico.
 
 ## Download e uso (2 minuti)
 
@@ -26,6 +29,9 @@ Scarica `skp.exe` (Windows) o `skp` (Linux) dalla sezione Release:
 skp a backup.skp --level 3 documento.pdf foto/
 skp l backup.skp
 skp x backup.skp documento.pdf -o out.pdf
+skp l vecchio.zip
+skp x vecchio.zip interno.pdf -o out.pdf
+skp c nuovo.skp vecchio.zip --level 3
 skp --version
 ```
 
@@ -43,4 +49,4 @@ Dettagli completi in `USERGUIDE.md`. Licenza d'uso in `EULA.txt`.
 ## Licenza e terze parti
 
 Uso regolato da `EULA.txt` (proprietaria). Componenti terzi in
-`THIRD_PARTY_NOTICES.txt` (zstd, xxHash, BLAKE3).
+`THIRD_PARTY_NOTICES.txt` (zstd, xxHash, BLAKE3, zlib).

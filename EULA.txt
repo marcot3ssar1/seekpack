@@ -1,4 +1,4 @@
-SEEKPACK END USER LICENSE AGREEMENT (EULA) — v0.2
+SEEKPACK END USER LICENSE AGREEMENT (EULA) — v0.2.1
 
 1. GRANT. The copyright holder grants you a non-exclusive, non-transferable
    license to use the seekpack executable ("Software") under the tier below.
