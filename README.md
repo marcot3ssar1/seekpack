@@ -8,6 +8,8 @@ Estrarre l'ultimo file da 600 archiviati: 7z solido single-stream impiega
 i lati ([video](https://youtu.be/FrA3Ury5NHM)). Archivio troncato: 7z muore,
 seekpack recupera dal footer ([video](https://youtu.be/_COR5A38Ja0)).
 
+![Tail-file extraction: 7z 8.88s vs seekpack 0.099s, entrambi hash-verificati](assets/seekpack-vs-7z.png)
+
 * Chunk seekable + dedup content-defined: il costo di estrazione resta
   piatto al crescere dell'archivio, non lineare.
 * Indice scritto due volte (header + footer): sopravvive a teste troncate
