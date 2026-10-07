@@ -1,0 +1,5 @@
+*.exe binary
+bin/linux/skp binary
+*.md text eol=lf
+*.txt text eol=lf
+SHA256SUMS.txt text eol=lf

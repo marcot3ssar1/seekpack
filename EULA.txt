@@ -1,0 +1,28 @@
+SEEKPACK END USER LICENSE AGREEMENT (EULA) — v0.2
+
+1. GRANT. The copyright holder grants you a non-exclusive, non-transferable
+   license to use the seekpack executable ("Software") under the tier below.
+2. TIERS.
+   (a) FREE: free of charge, including commercial use. Limits: creating
+       archives is limited to 200 files / 2 GB total and compression level
+       3 or lower. Listing and extracting are always unlimited.
+   (b) TRIAL: a new installation runs with Pro features enabled for 30
+       days, then automatically decays to FREE. Archives created during the
+       trial remain fully readable forever.
+   (c) PRO (€39 one-time, updates 1 year): removes all creation limits and
+       unlocks Pro modules (multithreaded coding, parity records,
+       encryption, scheduler) as they ship. One license per machine.
+3. RESTRICTIONS. You may not reverse engineer, decompile or disassemble
+   the Software, except where such restriction is prohibited by applicable
+   law. You may not remove copyright notices, resell, rent or sublicense
+   the Software, or publish license keys.
+4. NO WARRANTY. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+   KIND. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY DAMAGES, INCLUDING
+   LOSS OF DATA. BACKUPS OF IMPORTANT DATA MUST EXIST INDEPENDENTLY OF ANY
+   SINGLE ARCHIVE OR TOOL.
+5. THIRD PARTY. The Software statically links third-party components listed
+   in THIRD_PARTY_NOTICES.txt, whose licenses apply to those components.
+6. TERMINATION. Breach of this EULA terminates your rights; you must delete
+   all copies. Clauses 4 and 5 survive termination.
+
+Copyright (c) 2026 seekpack. All rights reserved.

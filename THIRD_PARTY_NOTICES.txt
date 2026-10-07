@@ -1,0 +1,26 @@
+THIRD-PARTY NOTICES — seekpack binary distribution
+
+This product statically links the following third-party components.
+Their licenses apply to those components only; the seekpack EULA
+(EULA.txt) governs the product as a whole.
+
+1) Zstandard (zstd) 1.5.7
+   Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.
+   BSD License. Redistribution and use in source and binary forms, with or
+   without modification, are permitted provided that: source redistributions
+   retain the above copyright notice, conditions and disclaimer; binary
+   redistributions reproduce them in documentation/materials; neither the
+   names Facebook/Meta nor contributors' names may endorse derived products
+   without prior written permission. Provided AS IS, no warranties.
+   Full text: third-party source archive (zstd-1.5.7/LICENSE) / facebook/zstd.
+
+2) xxHash
+   Copyright (C) 2012-2023 Yann Collet. BSD 2-Clause License
+   (https://www.opensource.org/licenses/bsd-license.php). Redistribution in
+   binary form must reproduce the copyright notice, conditions and disclaimer.
+   Provided AS IS. Homepage: https://www.xxhash.com
+
+3) BLAKE3 (portable C implementation)
+   Dedicated to the public domain under CC0 1.0 Universal
+   (https://creativecommons.org/publicdomain/zero/1.0/). No rights reserved
+   by the authors (BLAKE3 team and contributors).
